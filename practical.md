@@ -1,3 +1,24 @@
+## Pull and Merge difference
+
+* To merge feature branch to master branch
+
+    * git checkout \[master-branch\]
+
+    * git merge \[feature-branch\]
+
+    When we do merge it will take all the feature branch changes/commits & stuff them to one merge commit & put that commit on top of master branch
+
+* To pull the changes
+
+    * git checkout \[new_feature\]
+
+    * git pull \[URL of repository\]
+
+* To generate pull request
+
+    * First create new branch then do commit operation and push these commits on remote repository
+    * Then go to that branch and generate pull request to merge changes to master branch
+
 ## Rebase Practicle
 
 * To rebase feature branch commits
