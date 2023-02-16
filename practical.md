@@ -49,4 +49,4 @@
 * To avoid creating commit while doing cherry pick
 
     * git cherry-pick  \[Commit id of feature branch\] -n
-     -n for no committing, above command will stage the commit of feature branch
+    -n for no committing, above command will stage the commit of feature branch
