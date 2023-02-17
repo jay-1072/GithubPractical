@@ -49,21 +49,8 @@
 * To avoid creating commit while doing cherry pick
 
     * git cherry-pick  \[Commit id of feature branch\] -n
+<<<<<<< HEAD
     -n for no committing, above command will stage the commit of feature branch
-
-## drop commit
-
-* To drop commit First reset HEAD to parent commit
-
-    * git reset \[Parent commit id\]
-
-    After executing this command HEAD will point to parent commit
-
-* To reflect changes on remote branch / To delete commit on Remote repository
-
-    * git push origin \[Branch Name\] -f
-
-     -f means force fully.
-
-* If we want that commit again then we can get that using commit id
-	* git cherry-pick \[commit id\]
+=======
+     -n for no committing, above command will stage the commit of feature branch
+>>>>>>> 9828088 (cherry pick practical added)
