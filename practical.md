@@ -1,4 +1,4 @@
-##Rebase Practicle
+## Rebase Practicle
 
 * To rebase feature branch commits
 
